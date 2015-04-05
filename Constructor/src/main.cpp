@@ -1,5 +1,6 @@
 #include<iostream>
 #include<memory>
+#include "CopyConstructor.h"
 using namespace std;
 
 
@@ -7,6 +8,7 @@ using namespace std;
 int main()
 {
 
-return 0;
+    Constructor::CopyConstructor::PerformTest();
+    return 0;
 
 }

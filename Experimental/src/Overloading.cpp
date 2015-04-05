@@ -27,10 +27,12 @@ void Overloading::foo2(const int& t)
 void Overloading::PerformTest()
 {
     Overloading t;
-    t.foo(3);
+    t.foo(3);  //non const foo is called
     int e=4;
-    t.foo(e);
+    t.foo(e); //non const foo called
     const Overloading t2;
-    t2.foo(4);
+    t2.foo(4); // const foo called if available, else non const foo is called. Preference is given to const foo
+
+    //const/non const reference are not considered while overloading, they give ambiguity error
 }
 }//Experimental
