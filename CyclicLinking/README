@@ -1,0 +1,8 @@
+This program illustrates a known issue with g++/ld linker where
+the linker is single pass.
+If A has dependency on B then in the linker order, A should occur before B
+
+More
+
+http://stackoverflow.com/questions/45135/linker-order-gcc
+
