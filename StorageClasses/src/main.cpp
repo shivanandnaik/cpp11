@@ -7,6 +7,8 @@ using namespace std;
 extern int varGlobal;
 extern void foo(); //This is for demonstrating register storage
 
+extern void StaticFoo(bool); //This is for demonstrating Static storage
+
 //Following code would compile unless the variable is used in the code
 //extern string looksGlobalButIsLocalTU;
 
@@ -25,6 +27,11 @@ int main()
     }
     
     foo();
+    
+    for (int i =1; i<10; ++i)
+    StaticFoo(true);
+    for (int i =1; i<10; ++i)
+    StaticFoo(false);
 
     cout <<"Iam referring to varOne with " << varGlobal << " \n";
   //  cout <<"Iam referring to looksGlobalButIsLocalTU with " <<looksGlobalButIsLocalTU << " \n";
