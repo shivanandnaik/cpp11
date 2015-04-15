@@ -4,7 +4,9 @@ using namespace Sample;
 
 int main() 
 {
+//    Two two;
+//    two.foo1();
     One one;
-    one.foo();
+    one.foo1();
     return 0;
 }

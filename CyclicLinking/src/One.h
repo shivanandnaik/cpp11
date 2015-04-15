@@ -7,6 +7,7 @@ namespace Sample
         public:
         One();
         void foo();
+        void foo1();
         private:
         Two two;
     };

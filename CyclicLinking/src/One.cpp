@@ -7,9 +7,15 @@ namespace Sample
     {
     }
 
-    void One::foo()
+    void One::foo1()
     {
         Two t;
         t.foo();
     }
+  void One::foo()
+    {
+        int i;
+    }
+
+
 }

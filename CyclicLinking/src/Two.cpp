@@ -6,7 +6,13 @@ namespace Sample
     {
     }
 
+    void Two::foo1()
+    {
+//        One t;
+//        t.foo();
+    }
     void Two::foo()
     {
+  //      int i;
     }
 }
