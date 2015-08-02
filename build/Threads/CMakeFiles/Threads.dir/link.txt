@@ -1,1 +1,0 @@
-/usr/bin/c++    -g -std=c++11 -pthread  -g -std=c++11 -pthread     CMakeFiles/Threads.dir/src/MyThread.cpp.o CMakeFiles/Threads.dir/src/main.cpp.o  -o Threads -rdynamic 

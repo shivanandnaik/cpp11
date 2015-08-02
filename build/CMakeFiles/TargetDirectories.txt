@@ -1,4 +1,0 @@
-/home/shivanand/work/cpp11/build/Constructor/CMakeFiles/Constructor.dir
-/home/shivanand/work/cpp11/build/CyclicLinking/CMakeFiles/CyclicLinking.dir
-/home/shivanand/work/cpp11/build/StorageClasses/CMakeFiles/StorageClasses.dir
-/home/shivanand/work/cpp11/build/Threads/CMakeFiles/Threads.dir

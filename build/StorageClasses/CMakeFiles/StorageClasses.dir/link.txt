@@ -1,1 +1,0 @@
-/usr/bin/c++    -g -std=c++11 -pthread  -g -std=c++11 -pthread     CMakeFiles/StorageClasses.dir/src/Two.cpp.o CMakeFiles/StorageClasses.dir/src/BadStatic.cpp.o CMakeFiles/StorageClasses.dir/src/main.cpp.o CMakeFiles/StorageClasses.dir/src/One.cpp.o CMakeFiles/StorageClasses.dir/src/Static.cpp.o CMakeFiles/StorageClasses.dir/src/Register.cpp.o  -o StorageClasses -rdynamic 
