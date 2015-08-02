@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -std=c++11 -pthread  -g -std=c++11 -pthread     CMakeFiles/Constructor.dir/src/CopyConstructor.cpp.o CMakeFiles/Constructor.dir/src/main.cpp.o  -o Constructor -rdynamic 

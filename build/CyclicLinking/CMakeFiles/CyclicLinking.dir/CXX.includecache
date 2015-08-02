@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shivanand/work/cpp11/CyclicLinking/src/One.h
+Two.h
+/home/shivanand/work/cpp11/CyclicLinking/src/Two.h
+
+/home/shivanand/work/cpp11/CyclicLinking/src/Two.h
+
+/home/shivanand/work/cpp11/CyclicLinking/src/main.cpp
+One.h
+/home/shivanand/work/cpp11/CyclicLinking/src/One.h
+Two.h
+/home/shivanand/work/cpp11/CyclicLinking/src/Two.h
+
